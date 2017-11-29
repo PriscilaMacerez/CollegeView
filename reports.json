@@ -1,0 +1,152 @@
+[
+  {
+    "uri": "C:/Users/Pri/Documents/Nueva carpeta (7)/collegeView/features/find_school.feature",
+    "id": "find-a-school-match-using-location-and-major",
+    "keyword": "Feature",
+    "name": "Find a school match using Location and Major",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "find-a-school-match-using-location-and-major;find-a-school-match-using-location-and-major",
+        "keyword": "Scenario",
+        "name": "Find a school match using Location and Major",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6535958611
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I navigate to \"http://www.collegeview.com/\" page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/home_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13628927753
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on \"START SEARCHING\" button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/home_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19433464236
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on \"Location\" section",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/college_search_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271781747
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select \"Ohio\" Location",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/college_search_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10565754013
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on \"Majors\" section",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/college_search_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268027790
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select \"Bachelor's (4-year) Degree\" Majors",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/college_search_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 298739290
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill major field with \"Computer Software Engineering\" value",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/college_search_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 438789453
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I select result that math with \"Computer Software Engineering\" value",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/college_search_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057867918
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I verify \"Miami University-Oxford\" university name is returned",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/college_search_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55714
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 797080404
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

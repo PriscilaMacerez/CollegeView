@@ -1,0 +1,5 @@
+default: BROWSER=ff  --no-source --no-color --format pretty --format json --out reports.json
+chromesmoke: BROWSER=ff  --no-source --no-color --format pretty --format json --out reports.json
+firefoxfull: BROWSER=ff --no-source --no-color --format pretty --format json --out reports.json
+
+
