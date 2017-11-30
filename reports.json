@@ -21,7 +21,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6535958611
+              "duration": 3444236675
             }
           }
         ],
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13628927753
+              "duration": 28965838147
             }
           },
           {
@@ -47,7 +47,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19433464236
+              "duration": 23512707775
             }
           },
           {
@@ -59,7 +59,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 271781747
+              "duration": 352531665
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10565754013
+              "duration": 15894216417
             }
           },
           {
@@ -83,7 +83,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 268027790
+              "duration": 146733306
             }
           },
           {
@@ -95,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 298739290
+              "duration": 262623235
             }
           },
           {
@@ -107,7 +107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 438789453
+              "duration": 716860471
             }
           },
           {
@@ -119,19 +119,19 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1057867918
+              "duration": 471030956
             }
           },
           {
             "keyword": "And ",
-            "name": "I verify \"Miami University-Oxford\" university name is returned",
+            "name": "I verify \"Miami University-Oxford\" university name is returned as \"100\"% match",
             "line": 12,
             "match": {
               "location": "features/step_definitions/college_search_steps.rb:21"
             },
             "result": {
               "status": "passed",
-              "duration": 55714
+              "duration": 4709743609
             }
           }
         ],
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 797080404
+              "duration": 394301927
             }
           }
         ]

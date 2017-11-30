@@ -18,8 +18,8 @@
    @college_view_page.select_result(value)
  end
 
- And(/^I verify "([^"]*)" university name is returned$/) do |university|
-   @college_view_page.verify_universities_results(university)
+ And(/^I verify "([^"]*)" university name is returned as "([^"]*)"% match$/) do |university,percentage|
+   @college_view_page.verify_universities_results(university,percentage)
  end
 
 
